@@ -61,7 +61,7 @@ for part in a ab;do
 					part_suffix='b'
 				fi
 
-				target="treble_${arch}_${part_suffix}${apps_suffix}${su_suffix}"
+				target="dot_treble_${arch}_${part_suffix}${apps_suffix}${su_suffix}"
 
 				cat > ${target}.mk << EOF
 \$(call inherit-product, device/phh/treble/base-pre.mk)
