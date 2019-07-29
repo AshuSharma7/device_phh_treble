@@ -2,7 +2,7 @@ $(call inherit-product, device/phh/treble/base-pre.mk)
 include build/make/target/product/treble_common.mk
 $(call inherit-product, vendor/vndk/vndk.mk)
 $(call inherit-product, device/phh/treble/base.mk)
-$(call inherit-product, device/phh/treble/phhgsi_arm64_ab/BoardConfig.mk)
+
 $(call inherit-product, device/phh/treble/dot.mk)
 
 PRODUCT_NAME := dot_treble_arm64_bvN
