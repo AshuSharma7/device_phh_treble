@@ -1,19 +1,8 @@
 #!/bin/bash
 #Script to generate Device tree fot treble
-cat <<EOF
-"                                           _                                       "
-"                                  __ _ ___(_)                                      "
-"                                 / _` / __| |                                      "
-"                                | (_| \__ \ |                                      "
-"                                 \__, |___/_|                                      "
-"                                 |___/                                             "
-"                                                                                   "
-"                        | Script By ASHU SHARMA |                                  "
-"                            | GSI compilation |                                    "
-EOF
 read -p "Enter Rom Name: " rom
 read -p "Enter arch name arm64/arm: " arch
-read -p "Enter device type a/ab:" part
+read -p "Enter device type a/ab: " part
 read -p "Do You want Gapps y/n: " choice
 read -p "build type user/userdebug/eng: " build_type
 read -p "Enter current variant for lunch: " lunch_variant
