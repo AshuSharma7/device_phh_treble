@@ -30,10 +30,10 @@ Build_dt() {
 include build/make/target/product/treble_common.mk
 \$(call inherit-product, vendor/vndk/vndk.mk)
 \$(call inherit-product, device/phh/treble/base.mk)
-\$(call inherit-product, device/phh/treble/phhgsi_${arch}_$part/BoardConfig.mk
+\$(call inherit-product, device/phh/treble/phhgsi_${arch}_$part/BoardConfig.mk)
 $rom_script
 $gapps_script
-PRODUCT_NAME := $rom_$variant
+PRODUCT_NAME := ${rom}_$variant
 PRODUCT_DEVICE := phhgsi_${arch}_$part
 PRODUCT_BRAND := Android
 PRODUCT_MODEL := Phh-Treble
